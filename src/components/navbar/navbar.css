@@ -1,0 +1,46 @@
+.nav_container{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    /* margin: 10px 20px ; */
+   position: fixed;
+   align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    position: relative;
+    display: flex;
+   align-items: center;
+   top: 14px;
+   
+    color: #2D8A05;
+    
+}
+h1{
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 49px;
+    text-align: center;
+
+}
+span{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+.nav_list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 40px;
+    list-style: none;
+    
+    
+   
+}
