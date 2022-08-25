@@ -40,7 +40,8 @@ span{
     gap: 20px;
     padding-right: 40px;
     list-style: none;
-    cursor: pointer; 
+    cursor: pointer;
+    font-family: Poppins; 
 }
 
 
