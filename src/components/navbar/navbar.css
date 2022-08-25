@@ -1,11 +1,12 @@
 .nav_container{
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     /* margin: 10px 20px ; */
    position: fixed;
    align-items: center;
     display: flex;
+    background-color: #fff;
     align-items: center;
     justify-content: space-between;
 }
@@ -13,9 +14,8 @@
 .logo{
     position: relative;
     display: flex;
-   align-items: center;
-   top: 14px;
-   
+    align-items: center;
+    padding-left: 40px;
     color: #2D8A05;
     
 }
@@ -40,7 +40,11 @@ span{
     gap: 20px;
     padding-right: 40px;
     list-style: none;
+    cursor: pointer; 
+}
+
+
+li:hover{
+    color: #2D8A05;
     
-    
-   
 }

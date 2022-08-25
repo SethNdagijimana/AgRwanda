@@ -5,7 +5,8 @@ import background from "../../assets/image.png";
 function Content() {
   return (
     <div className="content">
-        <img src={background} alt="bg"></img>
+        
+        <img src={background} alt="bg" className="background"></img>
     </div>
   )
 }
