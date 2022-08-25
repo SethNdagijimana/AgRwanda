@@ -1,4 +1,5 @@
 import React from 'react';
+import Content from '../navbar/Content';
 import Navbar from '../navbar/Navbar';
 import "./home.css";
 import ImageSlider from './ImageSlider';
@@ -9,6 +10,8 @@ function Home() {
     <div className="container">
         <Navbar />
         <ImageSlider slides={sliderData} />
+
+        <Content />
 
     </div>
   )
