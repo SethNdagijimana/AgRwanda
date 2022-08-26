@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from '../navbar/card/Card';
 import Content from '../navbar/Content';
 import Navbar from '../navbar/Navbar';
 import "./home.css";
@@ -12,6 +13,8 @@ function Home() {
         <ImageSlider slides={sliderData} />
 
         <Content />
+        
+        <Card />
 
     </div>
   )
