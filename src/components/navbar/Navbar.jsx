@@ -1,5 +1,6 @@
 import React from 'react';
 import "./navbar.css";
+import { Link } from 'react-router-dom'
 import Logo from "../../assets/Vector.svg";
 
 
@@ -15,8 +16,8 @@ function Navbar() {
   
     
         <ul className="nav_list">
-            <li>Home</li> 
-            <li>About Us</li>
+        <Link to='/'> <li>Home</li> </Link>
+        <Link to='/AboutUs'><li>About Us</li></Link>
             <li>Contact Us</li>
             <li>LogIn</li>
             <li>Sign Up</li>
