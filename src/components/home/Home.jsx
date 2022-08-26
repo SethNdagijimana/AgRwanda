@@ -5,8 +5,7 @@ import background from "../../assets/image.png";
 import Navbar from '../navbar/Navbar';
 
 import Card from '../navbar/card/Card';
-import Content from '../navbar/Content';
-import Navbar from '../navbar/Navbar';
+
 
 import "./home.css";
 import ImageSlider from './ImageSlider';
@@ -33,6 +32,7 @@ function Home() {
         
         <Card />
 
+    </div>
     </div>
   )
 }
