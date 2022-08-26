@@ -44,6 +44,9 @@ span{
     font-family: Poppins; 
 }
 
+a{
+    text-decoration: none;
+}
 
 li:hover{
     color: #2D8A05;

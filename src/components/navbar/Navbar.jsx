@@ -18,9 +18,9 @@ function Navbar() {
         <ul className="nav_list">
         <Link to='/'> <li>Home</li> </Link>
         <Link to='/AboutUs'><li>About Us</li></Link>
-            <li>Contact Us</li>
-            <li>LogIn</li>
-            <li>Sign Up</li>
+        <Link to='/contact'><li>Contact Us</li></Link>
+        <Link to='/login'><li>LogIn</li></Link>
+        <Link to='/signup'><li>Sign Up</li></Link>
 
         </ul>
 
