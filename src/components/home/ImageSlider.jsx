@@ -23,15 +23,20 @@ const prevSlide = () => {
     <section className="slider" >
         <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
          <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+         <p className='p-content'><span id='purpose'>Purpose of AgRwanda</span> is to provide easy access to agricultural products to local farmers.</p>
+
         {sliderData.map((slide, index)=>{
 
             return(
                 <div className={index === current ? 'slide active' : 'slide'} key ={index}>
                     {index === current && (<img src={slide.image} alt ="seeds" className="image" />)}
+
+                    
                 
                 </div>
                 )
         })}
+        
     </section>
   )
 };

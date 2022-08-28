@@ -6,6 +6,7 @@ import Card from '../navbar/card/Card';
 import "./home.css";
 import ImageSlider from './ImageSlider';
 import { sliderData } from './ImageSliderData';
+import Footer from './footer/Footer';
 
 function Home() {
   return (
@@ -15,11 +16,9 @@ function Home() {
     <div className="container">
         <Navbar />
         <ImageSlider slides={sliderData} />
-
-
-        <Content />
-        
+        <Content />   
         <Card />
+        <Footer />
 
     </div>
 
