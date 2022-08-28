@@ -4,7 +4,7 @@ import Navbar from '../navbar/Navbar';
 
 import Card from "../navbar/card/Card";
 
-import Card from '../navbar/card/Card';
+
 
 import "./home.css";
 import ImageSlider from './ImageSlider';
@@ -15,7 +15,7 @@ function Home() {
 
   return (      
 
-  return (
+ 
 
       
 
