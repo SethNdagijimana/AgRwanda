@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.log{
+    position: relative;
+width: 216px;
+height: 59px;
+left: 50px;
+top: 250px;
+border: transparent;
+background: #A8B24A;
+border-radius: 12px;
+}
