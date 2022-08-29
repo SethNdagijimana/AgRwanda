@@ -15,7 +15,7 @@ function AboutUs() {
         to agricultural products 
         to local farmers.</div>
         <button className='sign'>Sign up</button>
-        <Link to='/login'><button className='log'>Login</button></Link>
+        <Link to='/login'><button className='logX'>Login</button></Link>
         </div>
     </div>
   )
