@@ -3,3 +3,60 @@
     margin: 0;
     
 }
+.Abt-tle{
+    position: relative;
+width: 147px;
+height: 31px;
+left: 150px;
+top: 100px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+color: #000000;
+}
+.Abt-cont{
+    position: relative;
+width: 410px;
+height: 108px;
+left: 50px;
+top: 170px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+}
+.sign{
+    position: relative;
+width: 216px;
+height: 59px;
+left: 20px;
+top: 250px;
+border: transparent;
+background: #A8B24A;
+border-radius: 12px;
+}
+.log{
+    position: relative;
+width: 216px;
+height: 59px;
+left: 50px;
+top: 250px;
+border: transparent;
+background: #A8B24A;
+border-radius: 12px;
+}
+.log-cont{
+    position: absolute;
+    /* background-color: aqua; */
+    height: 500px;
+    width: 500px;
+    left: 900px;
+    top: 150px;
+}

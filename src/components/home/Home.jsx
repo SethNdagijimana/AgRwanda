@@ -1,17 +1,24 @@
 import React from 'react';
-import Content from '../navbar/Content';
-// import background from "../../assets/image.png";
+ import Content from '../navbar/Content';
 import Navbar from '../navbar/Navbar';
-import Card from '../navbar/card/Card';
+
+import Card from "../navbar/card/Card";
+
+
+
 import "./home.css";
 import ImageSlider from './ImageSlider';
 import { sliderData } from './ImageSliderData';
 import Footer from './footer/Footer';
 
 function Home() {
-  return (
+
+  return (      
+
+ 
 
       
+
 
     <div className="container">
         <Navbar />
@@ -21,6 +28,8 @@ function Home() {
         <Footer />
 
     </div>
+
+      
 
   )
 }
