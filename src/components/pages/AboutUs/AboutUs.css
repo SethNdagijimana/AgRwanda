@@ -42,12 +42,12 @@ border: transparent;
 background: #A8B24A;
 border-radius: 12px;
 }
-.log{
+.logX{
     position: relative;
 width: 216px;
 height: 59px;
 left: 50px;
-top: 250px;
+top: 50%;
 border: transparent;
 background: #A8B24A;
 border-radius: 12px;
