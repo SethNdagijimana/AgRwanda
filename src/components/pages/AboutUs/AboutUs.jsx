@@ -14,8 +14,12 @@ function AboutUs() {
         <div className='Abt-cont'> we provide easy access
         to agricultural products 
         to local farmers.</div>
+
         <Link to="/signup"><button className='sign'>Sign up</button></Link>
         <Link to='/login'><button className='log'>Login</button></Link>
+
+
+
         </div>
     </div>
   )
