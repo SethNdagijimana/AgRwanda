@@ -6,6 +6,7 @@ import AboutUs from "./components/pages/AboutUs/AboutUs";
 import Contact from "./components/pages/contanct/Contact";
 import Login from "./components/pages/login/Login";
 import Sign from "./components/pages/signup/Sign";
+import RecPassword from "./components/pages/recPassword/RecPassword"
 function App() {
   return (
 
@@ -16,6 +17,7 @@ function App() {
       <Route element={<Contact/>} path='/contact'/>
       <Route element={<Login/>} path='/login'/>
       <Route element={<Sign/>} path='/signup'/>
+      <Route element={<RecPassword/>} path='/recoverPassword'/>
      </Routes>
      </BrowserRouter>
     
