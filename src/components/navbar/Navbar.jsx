@@ -12,9 +12,6 @@ function Navbar() {
     <img src={Logo} alt="logo"></img>
     <h1>AG<span>Rwanda</span></h1>
     </div>
-
-  
-    
         <ul className="nav_list">
         <Link to='/'> <li>Home</li> </Link>
         <Link to='/AboutUs'><li>About Us</li></Link>

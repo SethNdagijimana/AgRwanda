@@ -6,18 +6,20 @@ import bg from "../../../assets/Bg-Abt.png";
 
 function AboutUs() {
   return (
-    <div>
+    <div className="about">
         <Navbar/>
-        <img src={bg}alt=''/>
+        <img src={bg} alt='' className="bg" />
         <div className='log-cont'>
         <div className='Abt-tle'>Join us</div>
         <div className='Abt-cont'> we provide easy access
         to agricultural products 
         to local farmers.</div>
 
+        <div className="btn">
         <Link to="/signup"><button className='sign'>Sign up</button></Link>
-        <Link to='/login'><button className='log'>Login</button></Link>
+        <Link to='/login'><button className='login'>Login</button></Link>
 
+        </div>
 
 
         </div>

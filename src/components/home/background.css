@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.backImage {
+
+}
+
+.img{
+    width: 100%;
+}
+.p-content{
+    position: relative;
+    width: 844px;
+  
+    left: 141px;
+    padding: 30px;
+    bottom: 309px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+
+}
+#purpose{
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 68px;
+
+
+}
