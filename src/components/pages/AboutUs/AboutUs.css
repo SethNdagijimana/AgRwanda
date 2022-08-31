@@ -90,31 +90,3 @@ color: #000000;
 .login:hover{
     background: #6BAA50;
 }
-/* .sign{
-    position: relative;
-width: 216px;
-height: 59px;
-left: 20px;
-top: 250px;
-border: transparent;
-background: #A8B24A;
-border-radius: 12px;
-} */
-/* .login{
-position: relative;
-width: 216px;
-height: 59px;
-left: 20px;
-top: 250%;
-border: transparent;
-background: #A8B24A;
-border-radius: 12px;
-} */
-/* .log-cont{
-    position: absolute;
-    
-    height: 500px;
-    width: 500px;
-    left: 900px;
-    top: 150px;
-} */
