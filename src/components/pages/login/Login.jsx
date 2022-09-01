@@ -4,7 +4,7 @@ import "./login.css";
 import Navbar from '../../navbar/Navbar';
 import bgreen from "../../../assets/PartGreen.png";
 import bgreenI from "../../../assets/InGreen.png";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import * as AiIcons from "react-icons/ai"; 
 
 

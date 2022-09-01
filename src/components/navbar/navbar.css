@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 10;
+    
 }
 
 .logo{
@@ -20,7 +21,7 @@
     
 }
 h1{
-    font-family: 'Poppins';
+    font-family: Poppins;
     font-weight: 800;
     font-size: 35px;
     line-height: 49px;
