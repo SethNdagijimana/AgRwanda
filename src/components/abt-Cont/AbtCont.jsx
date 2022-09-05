@@ -8,6 +8,7 @@ const AbtCont= (props) => {
             <h className='h-Ttl'>{props.title}</h>
             <p className='p-Cont'>{props.content}</p>
             
+            
           </div>
           </div>
   )
