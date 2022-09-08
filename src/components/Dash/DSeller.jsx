@@ -1,7 +1,11 @@
 import React from 'react'
 import './dSeller.css';
 import picx from "../../assets/User.png"
-
+import lo from "../../assets/DashLogo.png"
+import l1 from "../../assets/fVec.png"
+import l2 from "../../assets/sVec.png" 
+// import Brands from '../brands/Brands';
+// import mark from '../../assets/marketing.png'
 
 function dSeller() {
   return (
@@ -15,8 +19,8 @@ function dSeller() {
             <p id ="daTitle">Dashboard</p>
             
             <select className='folders'>
-                
-                <option value="Pestcides">Pestcides</option>
+                <option value= "folders">Folders</option>
+                <option value="Pestcides" id=" ">Pestcides</option>
                 <option value="Fertilizers">Fertilizers</option>
             </select>
         </div>
@@ -26,6 +30,21 @@ function dSeller() {
 ;
         </div>
         <div className='Right-seller'>
+            <img src={lo} alt="" id='dl'></img>
+            <div className='topleft'>
+                <input type="text" placeholder='search something...' className='search' />
+                <img src={l1} alt="" id='dlx'></img>
+                <img src={l2} alt="" id='dly'></img>
+            </div>
+            <div className='SideCont'>
+                <h>Manage Your Products</h>
+                <p>Create folders to sort files and have quick access to documents</p>
+            </div>
+                {/* <Brands
+                number="1"
+                image= "mark"
+                type="Marketing"
+                /> */}
 
         </div>
     </div>
