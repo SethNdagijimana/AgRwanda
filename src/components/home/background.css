@@ -3,13 +3,12 @@
     margin: 0;
 }
 
-.backImage {
-
-}
-
 .img{
     width: 100%;
+    height: 100%;
 }
+
+
 .p-content{
     position: relative;
     width: 844px;
@@ -33,4 +32,17 @@
     line-height: 68px;
 
 
+}
+
+
+@media  (max-width: 600px) {
+    .img{
+        bottom: 600px;
+        width: 20%;
+        height: 20%;
+        padding: 5px;
+        background: blue;
+        
+    }
+  
 }

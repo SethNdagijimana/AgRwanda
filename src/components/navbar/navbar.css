@@ -20,6 +20,9 @@
     color: #2D8A05;
     
 }
+.log_AG{
+    width: 20%;
+}
 h1{
     font-family: Poppins;
     font-weight: 800;
@@ -42,7 +45,8 @@ span{
     padding-right: 40px;
     list-style: none;
     cursor: pointer;
-    font-family: Poppins; 
+    font-family: 'Poppins'; 
+    overflow: hidden;
 }
 
 a{
@@ -54,3 +58,26 @@ li:hover{
     color: #2D8A05;
     
 }
+
+@media screen and (max-width: 600px) {
+    .nav_container{
+        flex-direction: column;
+       
+    
+        
+    }
+    h1{
+        font-size: 20px;
+        font-family: 'poppins';
+        font-weight: 600;
+    }
+
+    span{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .nav_list{
+        /* flex-direction: column; */
+        /* width: 100%; */
+    }
+  }

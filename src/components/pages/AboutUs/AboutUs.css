@@ -133,3 +133,14 @@ color: #000000;
 background: rgba(255, 255, 255, 0.33);
     background-color: #6BAA50; */
 }
+
+@media  (max-width: 600px) {
+    .bg{
+        width: 95%;
+    }
+    .abt_container{
+        flex-direction: column;
+        left: 20px;
+        
+    }
+}

@@ -9,12 +9,6 @@ import Background from './Background';
 function Home() {
 
   return (      
-
- 
-
-      
-
-
     <div className="container">
         <Navbar />
         <Background />
