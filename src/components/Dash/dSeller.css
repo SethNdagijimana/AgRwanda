@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+.Left-seller{
+    position: absolute;
+width: 414px;
+height: 982px;
+left: 0px;
+top: 0px;
+background: #A8B24A;
+border-radius: 40px;
+}
+.Right-seller{
+    position: absolute;
+width: 1199px;
+height: 979px;
+left: 310px;
+top: 1px;
+
+background: #F2EBEB;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+.Profile{
+    position: relative;
+width: 140px;
+height: 113px;
+left: 81px;
+top: 100px;
+
+}
+#pName{
+    position: absolute;
+width: 140px;
+height: 30px;
+left: 1px;
+top: 60px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+#pImage{
+    position: relative;
+width: 74.17px;
+height: 76px;
+left: 30px;
+top: 6px;
+}
+#daTitle{
+    position: absolute;
+width: 122px;
+height: 30px;
+left: 77px;
+top: 200px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+#seTitle{
+    position: absolute;
+width: 95px;
+height: 30px;
+left: 102px;
+top: 555px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+.folders{
+    position: absolute;
+width: 83px;
+height: 23px;
+left: 104px;
+top: 378px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
