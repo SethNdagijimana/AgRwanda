@@ -6,7 +6,7 @@ const Brands = props => {
   return (
     <div className='brands'>
         <h>{props.number}</h>
-        <img src='' alt=''className='pImg'>{props.image}</img>
+        <img src={props.image} alt=''className='pImg'/>
         <p>{props.type}</p>
         <img src={more} alt='' className='iC'/>
     </div>
