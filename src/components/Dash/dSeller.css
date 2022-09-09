@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+.Left-seller{
+    position: absolute;
+    width: 310px;
+    height: 982px;
+    left: 0px;
+    top: 0px;
+    background: #A8B24A;
+    border-radius: 0px 40px 40px 0px;
+}
+.Right-seller{
+    position: absolute;
+width: 1199px;
+height: 979px;
+left: 310px;
+top: 1px;
+
+background: #F2EBEB;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+.Profile{
+    position: relative;
+width: 140px;
+height: 113px;
+left: 81px;
+top: 100px;
+
+
+}
+#pName{
+    position: absolute;
+width: 140px;
+height: 30px;
+left: 1px;
+top: 60px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+#pImage{
+    position: relative;
+width: 74.17px;
+height: 76px;
+left: 30px;
+top: 6px;
+}
+#daTitle{
+    position: absolute;
+width: 122px;
+height: 30px;
+left: 77px;
+top: 200px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+#seTitle{
+    position: absolute;
+width: 95px;
+height: 30px;
+left: 102px;
+top: 555px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+.folders{
+    position: absolute;
+/* height: 25px; */
+left: 90px;
+top: 280px;
+border: transparent;
+background: none; 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+
+
+#dl{
+    position: relative;
+width: 206.55px;
+height: 57px;
+left: 50px;
+top: 2px;
+/* background-color: #A8B24A; */
+}
+.search{
+    box-sizing: border-box;
+position: absolute;
+width: 537px;
+height: 36px;
+left: 2px;
+top: 3px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.62);
+border-radius: 10px;
+}
+.topleft{
+    position: relative;
+width: 734px;
+height: 45px;
+left: 400px;
+top: -55px;
+/* background-color: aquamarine; */
+}
+#dlx{
+    position: absolute;
+left: 83%;
+right: 15.28%;
+top: 3.56%;
+bottom: 93.48%;
+/* background: #000000; */
+}
+#dly{
+    position: absolute;
+left: 89.57%;
+right: 8.93%;
+top: 4.01%;
+bottom: 93.82%;
+/* border: 2px solid #000000; */
+}
+h{
+    position: absolute;
+width: 249px;
+height: 87px;
+left: 351px;
+top: 197px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #000000;
+}
+p{
+    position: absolute;
+    width: 225px;
+    height: 54px;
+    left: 352px;
+    top: 300px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000; 
+}
+.SideCont{
+    position: relative;
+    left: -300px;
+    top: -150px;
+}
