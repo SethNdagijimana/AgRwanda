@@ -37,8 +37,8 @@ function dSeller() {
                 <img src={l2} alt="" id='dly'></img>
             </div>
             <div className='SideCont'>
-                <h>Manage Your Products</h>
-                <p>Create folders to sort files and have quick access to documents</p>
+                <h1 id="manage">Manage Your Products</h1>
+                <p className="context">Create folders to sort files and have quick access to documents</p>
             </div>
                 {/* <Brands
                 number="1"
