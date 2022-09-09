@@ -17,7 +17,6 @@ width: 1199px;
 height: 979px;
 left: 310px;
 top: 1px;
-
 background: #F2EBEB;
 box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 border-radius: 40px;
@@ -80,6 +79,13 @@ line-height: 30px;
 text-align: center;
 color: #000000;
 }
+.Cut-brands{
+    display: flex;
+    gap: 30px;
+}
+
+
+
 .folders{
     position: absolute;
 /* height: 25px; */
@@ -95,8 +101,6 @@ line-height: 30px;
 text-align: center;
 color: #000000;
 }
-
-
 #dl{
     position: relative;
 width: 206.55px;
