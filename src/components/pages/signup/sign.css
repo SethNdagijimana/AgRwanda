@@ -98,13 +98,14 @@ border-radius: 10px;
 .signup_button{
     position: absolute;
     left: 960px;
-    top: 730px;
+    top: 775px;
     display: flex;
     justify-content: space-between;
 }
 
 .signing_up{
     background: #A8B24A;
+    
     width: 160px;
     height: 46px;
     border-radius: 12px;

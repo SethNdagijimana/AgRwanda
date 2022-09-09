@@ -17,9 +17,11 @@ function Sign() {
         <input type={"email"} placeholder="Email" className='Email'required/>
         <input type={"tel"} placeholder="Phone Number" className='phone'required/>
         <input type={"number"} placeholder="ID number" className='idnum'required/>
+        <input type={"number"} placeholder="Tin number" className='idnum'required/>
+
         <input type={"password"} placeholder="Password" className='pass'required/>
         <select class="category" id="select-option">
-                                <option value="Null"></option>
+                                <option value="Select">Select</option>
                                 <option value="Buyer">Buyer</option>
                                 <option value="Seller">Seller</option>
                             </select>
