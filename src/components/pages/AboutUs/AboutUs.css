@@ -126,3 +126,14 @@ color: #000000;
     height: 100%;
     color: blue;
 }
+
+@media  (max-width: 600px) {
+    .bg{
+        width: 95%;
+    }
+    .abt_container{
+        flex-direction: column;
+        left: 20px;
+        
+    }
+}

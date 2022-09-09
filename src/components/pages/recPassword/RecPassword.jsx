@@ -11,11 +11,15 @@ function RecPassword() {
         <Navbar/>
         <img src={bgreen}alt='' className='PartGreen'/>
         <img src={bgreenI}alt='' className='InGreen'/>
+        <div className="reset">
         <p className='Forgot'>FORGOT YOUR PASSWORD?</p>
         <p className='Forgot-cont'>Enter your e-mail and we’ll send a link to reset your password</p>
         <input type={"text"} placeholder="Email" className='email'/>
-        <Link to='/login'><button className='log'>Cancel</button></Link>
+        <div className="btn_recover">
+        <Link to='/login'><button className='cancel'>Cancel</button></Link>
         <Link to='/recoverPassword'><button className='RecPass'>Reset</button></Link>
+        </div>
+        </div>
     </div>
   )
 }

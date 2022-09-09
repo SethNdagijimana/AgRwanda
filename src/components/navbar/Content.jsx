@@ -1,7 +1,6 @@
 import React from 'react';
 import "./content.css";
 import "./navbar.css";
-import background from "../../assets/Ellipse 1.png";
 import background2 from "../../assets/Ellipse 10.png";
 import background3 from "../../assets/Ellipse 11.png";
 
@@ -15,16 +14,7 @@ function Content() {
         </div>
 
         <div className="pics">
-        
-
-        <div className="seed">
-            <img src={background} alt="bg" className="background1"></img>
-        <div className="description">
-        <h3>Seeds</h3>
-        <p>We have the best quality products </p>
-        </div>
-                
-        </div>
+      
         
         <div className="seed">
           

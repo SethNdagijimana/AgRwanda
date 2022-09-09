@@ -9,7 +9,7 @@ function Navbar() {
     <div className="nav_container">
     
     <div className="logo">
-    <img src={Logo} alt="logo"></img>
+    <img src={Logo} alt="logo" className='log_AG'></img>
     <h1>AG<span>Rwanda</span></h1>
     </div>
         <ul className="nav_list">
