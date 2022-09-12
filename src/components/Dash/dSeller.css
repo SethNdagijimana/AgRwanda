@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;    
 }
+
 .Left-seller{
     position: absolute;
-    width: 310px;
-    height: 982px;
+    width: 250px;
+    height: 800px;
     left: 0px;
     top: 0px;
     background: #A8B24A;
@@ -13,149 +14,139 @@
 }
 .Right-seller{
     position: absolute;
-width: 1199px;
-height: 979px;
-left: 310px;
-top: 1px;
-background: #F2EBEB;
-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-border-radius: 40px;
+    width: 200px;
+    height: 100vh;
+    left: 310px;
+    top: 1px;
+    background: #F2EBEB;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
 }
 .Profile{
     position: relative;
-width: 140px;
-height: 113px;
-left: 81px;
-top: 100px;
+    width: 140px;
+    height: 113px;
+    left: 81px;
+    top: 100px;
 
 
-}
-#pName{
-    position: absolute;
-width: 140px;
-height: 30px;
-left: 1px;
-top: 60px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 30px;
-text-align: center;
-color: #000000;
 }
 #pImage{
     position: relative;
-width: 74.17px;
-height: 76px;
-left: 30px;
-top: 6px;
+    width: 70px;
+    height: 70px;
+    bottom: 20px;
 }
-#daTitle{
+#pName{
     position: absolute;
-width: 122px;
-height: 30px;
-left: 77px;
-top: 200px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-color: #000000;
+    width: 140px;
+    bottom: 30px;
+    right: 15px;
+    font-weight: 700;
 }
-#seTitle{
+
+#dashboard__content{
     position: absolute;
-width: 95px;
-height: 30px;
-left: 102px;
-top: 555px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-color: #000000;
+    padding: 20px;
+    top: 200px;
+    left: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    line-height: 30px;
 }
-.Cut-brands{
+.dashboard_folders{
+    position: absolute;
+    top: 275px;
+    left: 80px;
+    border: transparent;
+    background: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.options{
+    background: #A8B24A;
+}
+#settings_info{
+    position: absolute;
+    top: 350px;
+    font-weight: 600;
+    left: 80px;
+    font-size: 20px;
+}
+.right_dashboard{
+    position: relative;
+    
+    background: blue;
+}
+
+.topleft{
+    width: 60%;
+    /* left: 250px; */
+    /* height: 100vh; */
+    /* display: flex; */
+    justify-content: center;
+    /* gap: 20px; */
+    border-radius: 20px;
+    /* background-color: grey; */
+}
+.dash__log{
+    font-size: 20px;
+    right: 20px;
+    width: 155px;
+}
+/* .search_something{
+    box-sizing: border-box;
+    position: absolute;
+    width: 537px;
+    height: 36px;
+    left: 2px;
+    top: 3px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+} */
+
+/* .Cut-brands{
     display: flex;
     gap: 30px;
 }
 
-
-
-.folders{
-    position: absolute;
-/* height: 25px; */
-left: 90px;
-top: 280px;
-border: transparent;
-background: none; 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-color: #000000;
-}
 #dl{
     position: relative;
-width: 206.55px;
-height: 57px;
-left: 50px;
-top: 2px;
-/* background-color: #A8B24A; */
-}
-.search{
-    box-sizing: border-box;
-position: absolute;
-width: 537px;
-height: 36px;
-left: 2px;
-top: 3px;
-background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.62);
-border-radius: 10px;
-}
-.topleft{
-    position: relative;
-width: 734px;
-height: 45px;
-left: 400px;
-top: -55px;
-/* background-color: aquamarine; */
-}
-#dlx{
+    width: 206.55px;
+    height: 57px;
+    left: 50px;
+    top: 2px;
+background-color: #A8B24A;
+} */
+/* #dlx{
     position: absolute;
-left: 83%;
-right: 15.28%;
-top: 3.56%;
-bottom: 93.48%;
-/* background: #000000; */
+    left: 83%;
+    right: 15.28%;
+    top: 3.56%;
+    bottom: 93.48%;
+background: #000000;
 }
 #dly{
     position: absolute;
-left: 89.57%;
-right: 8.93%;
-top: 4.01%;
-bottom: 93.82%;
-/* border: 2px solid #000000; */
+    left: 89.57%;
+    right: 8.93%;
+    top: 4.01%;
+    bottom: 93.82%;
+border: 2px solid #000000;
 }
 #manage{
     position: absolute;
-width: 249px;
-height: 87px;
-left: 351px;
-top: 197px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 45px;
-color: #000000;
+    width: 249px;
+    height: 87px;
+    left: 351px;
+    top: 197px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
 }
 .context{
     position: absolute;
@@ -170,8 +161,8 @@ color: #000000;
     line-height: 21px;
     color: #000000; 
 }
-.SideCont{
+.Side_Cont{
     position: relative;
     left: -300px;
     top: -150px;
-}
+} */
