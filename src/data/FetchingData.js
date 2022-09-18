@@ -1,0 +1,1 @@
+export const SERVER_URL = "https://floating-wildwood-63311.herokuapp.com";
