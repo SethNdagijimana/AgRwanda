@@ -3,3 +3,103 @@
     margin: 0;
     
 }
+.Contact-us{
+    position: relative;
+width: 540px;
+height: 600px;
+left: 78px;
+top: -800px;
+background: #A8B24A;
+padding: 50px;
+}
+.Contact-us-sub{
+    position: absolute;
+width: 334px;
+height: 300px;
+left: 100px;
+top: 93px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+/* background-color: aliceblue; */
+}
+#l1,#e1,#p1 {
+    height: 50px;
+    width: 50px;
+    left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+#a1,#a2,#a3{
+    margin-left: 80px;
+}
+#c1{
+    position: absolute;
+width: 135.87px;
+height: 28.74px;
+left: 200px;
+top: 40px;
+font-family: 'Poppins';
+font-weight: 800;
+font-size: 18px;
+}
+.Gt-in-touch{
+    position: absolute;
+    /* background-color: aquamarine; */
+left: 1100px;
+top: 220px;
+font-weight: 800;
+font-size: 18px;
+}
+.Feel-free{
+    position: absolute;
+width: 305px;
+height: 58px;
+left: 1012px;
+top: 310px;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+}
+.Input-contact{
+    position: absolute;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 355px;
+    top: 370px;    
+    left: 1010px; 
+    gap: 70px; 
+    margin-top: 60px;
+                 
+}
+#Tname, #Tmail{
+    background-color: transparent;
+    height: 30px;
+    width:354px
+    border-bottom 4px solid #0b0b0b;
+    border: transparent;
+    
+}
+.Tell-us{
+    position: absolute;
+width: 349px;
+height: 135px;
+left: 1011px;
+top: 603px;
+background: #E0E0E0;
+padding: 10px;
+}
+.Xend{
+    position: absolute;
+width: 216px;
+height: 59px;
+left: 1083px;
+top: 755px;
+background: #A8B24A;
+border-radius: 10px;
+border: transparent;
+}

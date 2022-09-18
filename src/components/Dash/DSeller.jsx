@@ -8,6 +8,8 @@ import Brands from '../brands/Brands';
 import m from './../../assets/marketing.png';
 import ma from './../../assets/branding.png';
 import mar from './../../assets/gallery.png';
+import Prodcont from '../product-cont/Prod-cont';
+import p1 from './../../assets/Fertz.png'
 
 function dSeller() {
   return (
@@ -45,7 +47,7 @@ function dSeller() {
                 <h1 id="manage">Manage Your Products</h1>
                 <p className="context">Create folders to sort files and have quick access to documents</p>
             </div>
-            <div className='Cut-brands'>
+            <div className='Cut-brand'>
                 <Brands
                 number="1"
                 image= {m}
@@ -61,6 +63,30 @@ function dSeller() {
                 image= {mar}
                 type="My gallery"
                 />
+            </div>
+            <div className='My-products'>
+                <h className='Prod-tle'>My Products</h>
+        
+                    <span className='Sub-tle'>
+                        <h2 id='Sub-tle_left'>Pesticides</h2>
+                        <h2 id='Sub-tle_right'>Fertilizers</h2>
+                    </span>
+        <div className='ProdContx'>
+                <Prodcont id='One'
+                image={p1}
+                name='Herbicides'
+                Qty='2 Ltr'
+                Amt = '3000Rwf'
+                />
+                {/* <Prodcont id='Two'
+                image={p1}
+                name='Herbicides'
+                Qty='2 Ltr'
+                Amt = '3000Rwf'
+                /> */}
+        </div>
+                
+
             </div>
      {/* <div className='Right-seller'>
             <img src={lo} alt=""></img>

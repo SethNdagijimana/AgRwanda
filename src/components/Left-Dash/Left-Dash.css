@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+.Left-seller{
+    position: absolute;
+    width: 250px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: #A8B24A;
+    border-radius: 0px 40px 40px 0px;
+}
+.Profile{
+    position: relative;
+    width: 140px;
+    height: 113px;
+    left: 81px;
+    top: 100px;
+}
+#pImage{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    bottom: 20px;
+}
+#pName{
+    position: absolute;
+    width: 140px;
+    bottom: 30px;
+    right: 15px;
+    font-weight: 700;
+}
+
+#dashboard__content{
+    position: absolute;
+    padding: 20px;
+    top: 200px;
+    left: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    line-height: 30px;
+}
+.dashboard_folders{
+    position: absolute;
+    top: 275px;
+    left: 80px;
+    border: transparent;
+    background: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.options{
+    background: #A8B24A;
+}
+#settings_info{
+    position: absolute;
+    top: 350px;
+    font-weight: 600;
+    left: 80px;
+    font-size: 20px;
+}
