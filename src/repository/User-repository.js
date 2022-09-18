@@ -1,7 +1,7 @@
-import {SERVER_URL} from "../FetchingData";
+import {SERVER_URL} from "../data/FetchingData";
 
 export class UserRepository {
-    REGISTER_USER_ENDPOINT = "https://floating-wildwood-63311.herokuapp.com/signup/"
+    REGISTER_USER_ENDPOINT = "https://floating-wildwood-63311.herokuapp.com/signup"
 
     
 /**
