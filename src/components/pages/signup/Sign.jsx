@@ -50,9 +50,9 @@ function Sign() {
      console.log(formData);
       setIsLoading(true);
       const resp = await userRepo.registerUser (formData);
-      setIsLoading(true);
-  
-      if(resp === true){
+      // setIsLoading(true);
+      
+      if(resp === formData){
        navigate("/login");
       }
     }
