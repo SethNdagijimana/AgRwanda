@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+.Prodcont{
+    position: relative;
+width: 210px;
+gap: 10px;
+height: 230px;
+left: 60px;
+top: 9px;
+background-color: rgb(202, 197, 197);
+border-radius: 10px;
+}
+.Prod-Pic{
+    position: absolute;
+width: 160px;
+height: 99px;
+left: 25px;
+top: 10px;
+}
+.Prod-Buy{
+    position: absolute;
+width: 102.43px;
+height: 31px;
+left: 55px;
+top: 195px;
+font-size: 18px;
+background: #A8B24A;
+border-radius: 10px;
+}
+.Prod-detail{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 120px;
+    left: 5px;
+    font-size: 20px;
+}

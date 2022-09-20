@@ -10,7 +10,7 @@ import RecPassword from "./components/pages/recPassword/RecPassword"
 import DSeller from "./components/Dash/DSeller";
 function App() {
   return (
-
+      
      <BrowserRouter>
      <Routes>
       <Route element={<Home />}path='/'/>
@@ -20,6 +20,7 @@ function App() {
       <Route element={<Sign/>} path='/signup'/>
       <Route element={<RecPassword/>} path='/recoverPassword'/>
       <Route element={<DSeller/>} path='/DashSeller'/>
+      <Route element={<pDesript/>} path='/Product Description'/>
      </Routes>
      </BrowserRouter>
     
