@@ -76,36 +76,31 @@
     width: 85%;
     left: 250px;
     gap: 100px;
-    background: blue;
+    background:white;
 
 }
 
 .topleft{
     width: 60%;
-    /* left: 250px; */
-    /* height: 100vh; */
-    /* display: flex; */
     justify-content: center;
-    /* gap: 20px; */
     border-radius: 20px;
-    /* background-color: grey; */
-}
+    }
 .dash__log{
     font-size: 20px;
     right: 20px;
     width: 155px;
 }
-/* .search_something{
+.search_something{
     box-sizing: border-box;
     position: absolute;
     width: 537px;
     height: 36px;
-    left: 2px;
+    left: 500px;
     top: 3px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.62);
     border-radius: 10px;
-} */
+}
 .Cut-brand{
     position:relative;
     display: flex;
@@ -114,7 +109,6 @@
     top: 80px;
     width: 60%;
     gap: 50px;
-    /* background-color: aquamarine; */
 }
 
 #dl{
@@ -125,6 +119,16 @@
     gap: 20px;
 background-color: #A8B24A;
 } 
+#dlx{
+    position: absolute;
+    left: 85%;
+    top: 10px;
+}
+#dly{
+    position: absolute;
+    left: 90%;
+    top: 10px;
+}
 #manage{
     position: absolute;
     width: 249px;
