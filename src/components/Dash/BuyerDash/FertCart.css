@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.BuyerCard__Container{
+    width: 305px;
+    height: 550px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#FertImageID{
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.BuyerCard__Content{
+    width: 305px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 15px;
+    text-align: center;
+    background-color: #D9D9D9;
+}
+#CardTitle{
+    font-family: "Calibri";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+}
+#CardStatus{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+#CardCapacity,#CardPrice{
+    font-family: "Calibri";
+    font-size: 17px;
+}
+#CardPrice{
+    color: #6BAA50;
+    margin-bottom: 30px;
+}
+.Pay__Button{
+    width: 100px;
+    height: 25px;
+    padding: 10px;
+    font-size: 18px;
+    background-color:#A8B24A ;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}

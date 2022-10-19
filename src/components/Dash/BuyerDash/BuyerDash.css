@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.buyerDash__container{
+    width: 100%;
+    height: 250vh;
+    display: flex;
+}
+.container__leftSide{
+    width: 20%;
+    height: 250vh;
+    background-color: #A8B24A;
+    border-radius: 0px 10px 10px 0px;
+    padding: 30px 10px 10px 10px;
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    flex-direction: column;
+
+    align-items: center;
+}
+hr{
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.442);
+    height: 1px;
+}
+#ActionText{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+.action__menu{
+    text-decoration: none;
+    list-style: none;
+}
+.action__menu>li{
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 8px;
+    align-items: center;
+}
+#StoresID{
+    width: 20px;
+}
+/* Right Side */
+.container__rightSide{
+    width: 80%;
+    height: 100vh;
+}
+.rightSide__head{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#SearchInput{
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+#Notify__Me{
+    display: flex;
+    width: 100px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+/* Row 1 */
+.row1,.row2,.row3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.row1__content,.row2__container,.row3__container{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+}

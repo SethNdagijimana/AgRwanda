@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './dSeller.css';
 import picx from "../../assets/Ellipse 12.png";
 import lo from "../../assets/DashLogo.png";
@@ -72,12 +73,13 @@ function dSeller() {
                         <h2 id='Sub-tle_right'>Fertilizers</h2>
                     </span>
         <div className='ProdContx'>
+            <Link to='/BuyerDash'>
                 <Prodcont id='One'
                 image={p1}
                 name='Herbicides'
                 Qty='2 Ltr'
                 Amt = '3000Rwf'
-                />
+                /></Link>
                 {/* <Prodcont id='Two'
                 image={p1}
                 name='Herbicides'

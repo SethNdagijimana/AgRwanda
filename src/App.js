@@ -8,6 +8,7 @@ import Login from "./components/pages/login/Login";
 import Sign from "./components/pages/signup/Sign";
 import RecPassword from "./components/pages/recPassword/RecPassword"  
 import DSeller from "./components/Dash/DSeller";
+import ByerDash from "./components/Dash/BuyerDash/ByerDash";
 function App() {
   return (
       
@@ -21,6 +22,7 @@ function App() {
       <Route element={<RecPassword/>} path='/recoverPassword'/>
       <Route element={<DSeller/>} path='/DashSeller'/>
       <Route element={<pDesript/>} path='/Product Description'/>
+      <Route element ={ <ByerDash/> } path='/BuyerDash'/>
      </Routes>
      </BrowserRouter>
     
